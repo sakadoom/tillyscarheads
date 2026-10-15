@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+
+# Rahasia lokal dan database
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+
+# Sampah editor/OS
+.DS_Store
+Thumbs.db
+*.log
+.vite/
