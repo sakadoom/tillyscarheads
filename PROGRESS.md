@@ -19,7 +19,9 @@ pengembangan ini (bukan laporan lama).
 - [x] **Fase 5: Rapikan sebelum push** — README.md lengkap, `.gitignore` mengecualikan
       `node_modules`, `dist`, `coverage`, `.env*` (kecuali `.env.example`), `*.db`, `*.db-journal`,
       `*.log`, `.vite`; pemindaian rahasia bersih.
-- [ ] **Fase 6: Push ke GitHub** — menunggu URL repository dari manusia (tidak ditebak).
+- [x] **Fase 6: Push ke GitHub** — commit awal `60941c8` pada branch `main` di
+      <https://github.com/sakadoom/tillyscarheads.git> (113 berkas, tanpa `node_modules`, `.env`,
+      database, atau artefak build); `git ls-remote` menunjukkan remote berada di commit yang sama.
 
 ## Acceptance checklist (Bagian 12)
 
@@ -103,5 +105,7 @@ Verifikasi lewat API (Supertest + curl ke `http://localhost:3001/api`) **dan** a
 
 - Aplikasi dibangun di root folder kerja (bukan subfolder), sesuai instruksi
   "membangun aplikasi lengkap dari nol di folder kerja saat ini".
+- Status git: branch `main` melacak `origin/main`, working tree bersih setelah push.
+  Seluruh pekerjaan sudah ada di remote, bukan hanya lokal.
 - `npm run db:seed` menghapus proyek contoh akun demo lalu membuatnya ulang, sehingga aman
   dijalankan berulang (diverifikasi dengan dua kali eksekusi berturut-turut).
