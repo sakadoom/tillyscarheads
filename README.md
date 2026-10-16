@@ -4,6 +4,10 @@ Aplikasi web full-stack untuk mengelola jadwal proyek: menyusun WBS, mengatur de
 menghitung critical path (CPM), menaksir biaya, dan melihat diagram PERT. Semua perhitungan
 jadwal ada di satu paket mesin (`shared`) yang dipakai bersama oleh server dan client, sehingga
 angka di layar selalu sama dengan angka yang disimpan.
+<img width="1916" height="1030" alt="image" src="https://github.com/user-attachments/assets/0dbd9289-51a3-40c9-98ce-3ae0c050d4f4" />
+<img width="1917" height="1027" alt="image" src="https://github.com/user-attachments/assets/9f1fa7d8-34a7-4114-916d-02835ee0b38f" />
+
+
 
 ## Fitur
 
